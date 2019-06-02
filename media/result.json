@@ -1,0 +1,597 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_code",
+                "table_column_description",
+                "table_column_quantity",
+                "table_column_amount",
+                "table_column_rate",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "Code",
+                            "value_type": "text",
+                            "bbox": [
+                                72.0,
+                                492.0,
+                                180.0,
+                                540.0
+                            ],
+                            "value": "Code"
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                186.0,
+                                492.0,
+                                732.0,
+                                540.0
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "QTY",
+                            "value_type": "text",
+                            "bbox": [
+                                780.0,
+                                492.0,
+                                840.0,
+                                540.0
+                            ],
+                            "value": "QTY"
+                        },
+                        {
+                            "content": "Rate",
+                            "value_type": "text",
+                            "bbox": [
+                                888.0,
+                                492.0,
+                                984.0,
+                                540.0
+                            ],
+                            "value": "Rate"
+                        },
+                        {
+                            "content": "T",
+                            "value_type": "text",
+                            "bbox": [
+                                984.0,
+                                492.0,
+                                1026.0,
+                                540.0
+                            ],
+                            "value": "T"
+                        },
+                        {
+                            "content": "Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                1086.0,
+                                492.0,
+                                1182.0,
+                                540.0
+                            ],
+                            "value": "Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "SKU1234",
+                            "value_type": "text",
+                            "bbox": [
+                                72.0,
+                                546.0,
+                                180.0,
+                                588.0
+                            ],
+                            "value": "SKU1234"
+                        },
+                        {
+                            "content": "Test Product 1 - Description of test product 1",
+                            "value_type": "text",
+                            "bbox": [
+                                186.0,
+                                546.0,
+                                732.0,
+                                588.0
+                            ],
+                            "value": "Test Product 1 - Description of test product 1"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                780.0,
+                                546.0,
+                                840.0,
+                                588.0
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "$12.45",
+                            "value_type": "number",
+                            "bbox": [
+                                888.0,
+                                546.0,
+                                984.0,
+                                588.0
+                            ],
+                            "value": "12.45"
+                        },
+                        {
+                            "content": "Y",
+                            "value_type": null,
+                            "bbox": [
+                                984.0,
+                                546.0,
+                                1026.0,
+                                588.0
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "$12.45",
+                            "value_type": "number",
+                            "bbox": [
+                                1086.0,
+                                546.0,
+                                1182.0,
+                                588.0
+                            ],
+                            "value": "12.45"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72.0,
+                                594.0,
+                                180.0,
+                                642.0
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Small Black Widget - Description of the small black widget.",
+                            "value_type": "text",
+                            "bbox": [
+                                186.0,
+                                594.0,
+                                732.0,
+                                642.0
+                            ],
+                            "value": "Small Black Widget - Description of the small black widget."
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                780.0,
+                                594.0,
+                                840.0,
+                                642.0
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "$199.99",
+                            "value_type": "number",
+                            "bbox": [
+                                888.0,
+                                594.0,
+                                984.0,
+                                642.0
+                            ],
+                            "value": "199.99"
+                        },
+                        {
+                            "content": "N",
+                            "value_type": null,
+                            "bbox": [
+                                984.0,
+                                594.0,
+                                1026.0,
+                                642.0
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "$199.99",
+                            "value_type": "number",
+                            "bbox": [
+                                1086.0,
+                                594.0,
+                                1182.0,
+                                642.0
+                            ],
+                            "value": "199.99"
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                72.0,
+                492.0,
+                1182.0,
+                642.0
+            ]
+        }
+    ],
+    "language": "eng",
+    "payment_state": "automatic",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "213.69",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9573533777479913,
+            "value_type": "number",
+            "bbox": [
+                1105.0,
+                1380.0,
+                1173.0,
+                1410.0
+            ],
+            "title": "Amount Due",
+            "page": 0,
+            "value": "213.69",
+            "name": "amount_due"
+        },
+        {
+            "content": "213.69",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9685924933183375,
+            "value_type": "number",
+            "bbox": [
+                1104.0,
+                1356.0,
+                1176.0,
+                1386.0
+            ],
+            "title": "Total Amount",
+            "page": 0,
+            "value": "213.69",
+            "name": "amount_total"
+        },
+        {
+            "content": "212.44",
+            "checks": {},
+            "score": 0.9881469948461798,
+            "value_type": "number",
+            "bbox": [
+                1105.0,
+                1308.0,
+                1175.0,
+                1338.0
+            ],
+            "title": "Tax Base Total",
+            "page": 0,
+            "value": "212.44",
+            "name": "amount_total_base"
+        },
+        {
+            "content": "1.25",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9404449212477554,
+            "value_type": "number",
+            "bbox": [
+                1125.0,
+                1332.0,
+                1175.0,
+                1362.0
+            ],
+            "title": "Tax Total",
+            "page": 0,
+            "value": "1.25",
+            "name": "amount_total_tax"
+        },
+        {
+            "content": "02-05-2009",
+            "checks": {},
+            "score": 0.9657321585134864,
+            "value_type": "date",
+            "bbox": [
+                877.0,
+                192.0,
+                995.0,
+                216.0
+            ],
+            "title": "Date Due",
+            "page": 0,
+            "value": "2009-05-02",
+            "name": "date_due"
+        },
+        {
+            "content": "01-05-2009",
+            "checks": {},
+            "score": 0.9820874342580446,
+            "value_type": "date",
+            "bbox": [
+                877.0,
+                162.0,
+                995.0,
+                192.0
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2009-05-01",
+            "name": "date_issue"
+        },
+        {
+            "content": "11021",
+            "checks": {},
+            "score": 0.9266150895217354,
+            "value_type": "text",
+            "bbox": [
+                876.0,
+                114.0,
+                946.0,
+                150.0
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "11021",
+            "name": "invoice_id"
+        },
+        {
+            "content": "1111 South 4th Street\nLos Angeles, CA 90210",
+            "checks": {},
+            "score": 0.8685805088372262,
+            "value_type": "text",
+            "bbox": [
+                72.0,
+                366.0,
+                306.0,
+                420.0
+            ],
+            "title": "Recipient Address",
+            "page": 0,
+            "value": "1111 South 4th Street\nLos Angeles, CA 90210",
+            "name": "recipient_address"
+        },
+        {
+            "content": "1111 South 4th Street",
+            "checks": {},
+            "score": 0.8710566739401746,
+            "value_type": "text",
+            "bbox": [
+                76.0,
+                366.0,
+                288.0,
+                396.0
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "1111 South 4th Street",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Los Angeles, CA 90210",
+            "checks": {},
+            "score": 0.8661183818868073,
+            "value_type": "text",
+            "bbox": [
+                72.0,
+                390.0,
+                306.0,
+                420.0
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Los Angeles, CA 90210",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Demo Customer 1",
+            "checks": {},
+            "score": 0.9053205176715309,
+            "value_type": "text",
+            "bbox": [
+                74.0,
+                336.0,
+                260.0,
+                372.0
+            ],
+            "title": "Recipient Name",
+            "page": 0,
+            "value": "Demo Customer 1",
+            "name": "recipient_name"
+        },
+        {
+            "content": "Demo Compary\n1234 Main Street\nAshland, KY 41102",
+            "checks": {},
+            "score": 0.7514510952664806,
+            "value_type": "text",
+            "bbox": [
+                48.0,
+                108.0,
+                246.0,
+                186.0
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "Demo Compary\n1234 Main Street\nAshland, KY 41102",
+            "name": "sender_address"
+        },
+        {
+            "content": "1234 Main Street",
+            "checks": {},
+            "score": 0.8328992598733443,
+            "value_type": "text",
+            "bbox": [
+                52.0,
+                132.0,
+                222.0,
+                162.0
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "1234 Main Street",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Ashland, KY 41102",
+            "checks": {},
+            "score": 0.8095070384837495,
+            "value_type": "text",
+            "bbox": [
+                48.0,
+                156.0,
+                246.0,
+                186.0
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Ashland, KY 41102",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Demo Compary",
+            "checks": {},
+            "score": 0.642536975094596,
+            "value_type": "text",
+            "bbox": [
+                50.0,
+                108.0,
+                214.0,
+                138.0
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Demo Compary",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Demo Compary",
+            "checks": {},
+            "score": 0.6444005730835223,
+            "value_type": "text",
+            "bbox": [
+                47.0,
+                102.0,
+                283.0,
+                138.0
+            ],
+            "title": "Supplier Name",
+            "page": 0,
+            "value": "Demo Compary",
+            "name": "sender_name"
+        },
+        {
+            "content": [
+                {
+                    "content": "212.44",
+                    "checks": {
+                        "amount_equations": "bad"
+                    },
+                    "score": 0.3495989419968594,
+                    "value_type": "number",
+                    "bbox": [
+                        1105.0,
+                        1308.0,
+                        1175.0,
+                        1338.0
+                    ],
+                    "title": "Tax Base",
+                    "page": 0,
+                    "value": "212.44",
+                    "name": "tax_detail_base"
+                },
+                {
+                    "content": "1.25",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.2685267270261852,
+                    "value_type": "number",
+                    "bbox": [
+                        1124.0,
+                        1338.0,
+                        1176.0,
+                        1362.0
+                    ],
+                    "title": "Tax Amount",
+                    "page": 0,
+                    "value": "1.25",
+                    "name": "tax_detail_tax"
+                },
+                {
+                    "content": "213.69",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.5482020764739864,
+                    "value_type": "number",
+                    "bbox": [
+                        1105.0,
+                        1356.0,
+                        1173.0,
+                        1386.0
+                    ],
+                    "title": "Tax Total",
+                    "page": 0,
+                    "value": "213.69",
+                    "name": "tax_detail_total"
+                }
+            ],
+            "score": 0.2685267270261852,
+            "name": "tax_details",
+            "title": "Tax Details",
+            "page": 0,
+            "bbox": [
+                1105.0,
+                1308.0,
+                1175.0,
+                1338.0
+            ]
+        },
+        {
+            "content": "On Receipt",
+            "checks": {},
+            "score": 0.8835231831975865,
+            "value_type": "text",
+            "bbox": [
+                878.0,
+                210.0,
+                998.0,
+                240.0
+            ],
+            "title": "Terms",
+            "page": 0,
+            "value": "On Receipt",
+            "name": "terms"
+        }
+    ],
+    "previews": [
+        "https://all.rir.rossum.ai/img/894d263fef794acfa479bfe8_0.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_894d263fef794acfa479bfe8_0.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/894d263fef794acfa479bfe8_0.png"
+}
