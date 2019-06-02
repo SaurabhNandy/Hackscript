@@ -1,0 +1,44 @@
+{% extends "extract/base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block anay %} 
+<title>Contact Us</title>
+<link href="{% static "extract/contactUs.css" %}" type="text/css" rel="stylesheet">
+{% endblock anay%}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6" id="top">
+      <h2>We would love to hear from you!!</h2>
+      <form method="post" name="CommentForm">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+
+        {{ form.source.errors }}
+        {{ form.source }}
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" name="{{ form.name.name }}" id="{{ form.name.id_for_label }}" placeholder="Name" {% if form.name.value != None %} value="{{ form.name.value|stringformat:'s' }}"{% endif %} required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="text" class="form-control" name="{{ form.email.name }}" id="{{ form.email.id_for_label }}" placeholder="Enter email" {% if form.email.value != None %} value="{{ form.email.value|stringformat:'s' }}"{% endif %}>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember">Remember me
+        </label>
+        </div>
+        <div class="form-group">
+          <label>Any Suggestions/Comments?</label>
+          <textarea placeholder="Comments" class="form-control" rows="5" name="{{ form.comment.name }}" id="{{ form.comment.id_for_label }}" {% if form.comment.value != None %} value="{{ form.comment.value|stringformat:'s' }}"{% endif %}></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
